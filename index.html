@@ -57,17 +57,31 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
                     <h2>About</h2>
-                    <p class="lead">Learning on graphs is at the core of many domains, ranging from information retrieval, social network analysis to transportation and computational chemistry. Years of research in this area have developed a wealth of theories, algorithms,
-                        and open-source systems for a variety of learning tasks. State-of-the-art graph learning models have been widely deployed in various real-world applications, often delivering superior empirical performance in answering what/who
-                        questions. For example, what are the most relevant web pages with respect to a user query? Who can be grouped into the same community? What items should we recommend to best-fit user preferences? Despite the prosperous development
-                        of high-utility graph learning models, recent studies reveal that learning on graphs is not trustworthy in many aspects. For example, existing methods make decisions in a black-box manner, which hinders the end-users to understand
-                        and trust model decisions. Many commonly applied approaches are also found to be vulnerable to malicious attacks, biased against individuals from certain demographic groups, or insecure to information leakage. As such, a fundamental
-                        question largely remains nascent: how can we make learning algorithms on graphs trustworthy? To answer this question, it is crucial to propose a paradigm shift, from answering what/who to understanding how/why, e.g., how the ranking
-                        of webpages can be manipulated by the malicious link farms; why two seemingly different users are grouped into the same online community; how sensitive the recommendation results are due to the random noises or fake ratings. <br><br>                        This one-day workshop aims to bring together researchers and practitioners from different backgrounds to answer these research questions and enhance the trustworthiness of learning on graphs. The workshop will consist of contributed
-                        talks, contributed posters, and invited talks on a wide variety of methods and applications. Work-in-progress papers, demos, and visionary papers are also welcomed. This workshop intends to share visions of investigating new approaches
-                        and methods at the intersection of trustworthy learning on graphs and real-world applications.
+                    <p class="lead">
+                        Learning on graphs is at the core of many domains, ranging from information retrieval, social network analysis to transportation and computational chemistry. Years of research in this area have developed a wealth of theories, algorithms, and open-source
+                        systems for a variety of learning tasks. State-of-the-art graph learning models have been widely deployed in various real-world applications, often delivering superior empirical performance in answering what/who questions. For
+                        example, what are the most relevant web pages with respect to a user query? Who can be grouped into the same community? What items should we recommend to best-fit user preferences? Despite the prosperous development of high-utility
+                        graph learning models, recent studies reveal that learning on graphs is not trustworthy in many aspects. For example, existing methods make decisions in a black-box manner, which hinders the end-users to understand and trust model
+                        decisions. Many commonly applied approaches are also found to be vulnerable to malicious attacks, biased against individuals from certain demographic groups, or insecure to information leakage. As such, a fundamental question largely
+                        remains nascent: how can we make learning algorithms on graphs trustworthy? To answer this question, it is crucial to propose a paradigm shift, from answering what/who to understanding how/why, e.g., how the ranking of webpages
+                        can be manipulated by the malicious link farms; why two seemingly different users are grouped into the same online community; how sensitive the recommendation results are due to the random noises or fake ratings.
+                        <br><br> There are many challenges involved in trustworthy learning on graphs, including:
+                        <ul>
+                            <li dir="ltr" class="lead">Understanding the implications of non-IID graph data on the classic trustworthy machine learning;</li>
+                            <li dir="ltr" class="lead">Discovering graph-specific measurements and techniques for trustworthy learning;
+                            </li>
+                            <li dir="ltr" class="lead">Achieving trustworthy learning on graphs at scale;</li>
+                            <li dir="ltr" class="lead">Accommodating the heterogeneity of graph data;</li>
+                            <li dir="ltr" class="lead">Dealing with dynamically changing and/or temporal graphs.</li>
+                        </ul>
+                        <br>
+                        <p class="lead"> This one-day workshop aims to bring together researchers and practitioners from different backgrounds to answer these research questions and enhance the trustworthiness of learning on graphs. The workshop will consist of contributed
+                            talks, contributed posters, invited talks and discussion panels on a wide variety of methods and applications. Work-in-progress papers, demos, and visionary papers are also welcomed. We will also include invited papers for
+                            both oral presentation and poster presentation. This workshop intends to share visions of investigating new approaches and methods at the intersection of trustworthy learning on graphs and real-world applications.
 
-                        <!--<ul>
+
+
+                            <!--<ul>
                         <li>Clickable nav links that smooth scroll to page sections</li>
                         <li>Responsive behavior when clicking nav links perfect for a one page website</li>
                         <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
@@ -150,15 +164,6 @@
                     <p class="lead"><b>Organzing Chairs</b></p>
                     <div id="images">
                         <div class="half">
-                            <img class="gunimage" border="0" alt="idk" src="images/jp.png">
-                            <a href="https://sites.google.com/view/jpei/jian-peis-homepage" target="_blank" style="text-decoration: none;">
-                                <h4>Jian Pei</h4>
-                            </a>
-                            <b>Professor</b>
-                            <p>Simon Fraser University</p>
-
-                        </div>
-                        <div class="half">
                             <img class="gunimage" border="0" alt="idk" src="images/hjr.png">
                             <a href="https://www.hejingrui.org/" target="_blank" style="text-decoration: none;">
                                 <h4>Jingrui He</h4>
@@ -166,18 +171,21 @@
                             <b>Associate Professor</b>
                             <p>University of Illinois at Urbana-Champaign</p>
                         </div>
+
+                        <div class="half">
+                            <img class="gunimage" border="0" alt="idk" src="images/kj.png">
+                            <a href="http://jiank2.web.illinois.edu/" target="_blank" style="text-decoration: none;">
+                                <h4>Jian Kang</h4>
+                            </a>
+                            <b>Ph.D. Student</b>
+                            <p>University of Illinois at Urbana-Champaign</p>
+                        </div>
+
+
+
                     </div>
 
                     <div id="images">
-                        <div class="half">
-                            <img class="gunimage" border="0" alt="idk" src="images/dawei.png">
-                            <a href="https://sites.google.com/view/dawei-zhou/home" target="_blank" style="text-decoration: none;">
-                                <h4>Dawei Zhou</h4>
-                            </a>
-                            <b>Assistant Professor</b>
-                            <p>Virginia Tech</p>
-
-                        </div>
                         <div class="half">
                             <img class="gunimage" border="0" alt="idk" src="images/lb.png">
                             <a href="https://aisecure.github.io/" target="_blank" style="text-decoration: none;">
@@ -186,15 +194,28 @@
                             <b>Assistant Professor</b>
                             <p>University of Illinois at Urbana-Champaign</p>
                         </div>
+
+                        <div class="half">
+                            <img class="gunimage" border="0" alt="idk" src="images/jp.png">
+                            <a href="https://sites.google.com/view/jpei/jian-peis-homepage" target="_blank" style="text-decoration: none;">
+                                <h4>Jian Pei</h4>
+                            </a>
+                            <b>Professor</b>
+                            <p>Simon Fraser University</p>
+
+                        </div>
+
                     </div>
+
                     <div id="images">
                         <div class="half2">
-                            <img class="gunimage" border="0" alt="idk" src="images/kj.png">
-                            <a href="http://jiank2.web.illinois.edu/" target="_blank" style="text-decoration: none;">
-                                <h4>Jian Kang</h4>
+                            <img class="gunimage" border="0" alt="idk" src="images/dawei.png">
+                            <a href="https://sites.google.com/view/dawei-zhou/home" target="_blank" style="text-decoration: none;">
+                                <h4>Dawei Zhou</h4>
                             </a>
-                            <b>Ph.D. Student</b>
-                            <p>University of Illinois at Urbana-Champaign</p>
+                            <b>Assistant Professor</b>
+                            <p>Virginia Tech</p>
+
                         </div>
 
                     </div>
