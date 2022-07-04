@@ -68,10 +68,126 @@
     --bs-body-bg: #fff;
 }
 
+
+/*start*/
+
+body {
+    font-family: Open Sans, sans-serif;
+    padding: 5rem 1.25rem;
+    /* 80 20 */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 60rem;
+    /* 960 */
+    margin: 0 auto;
+}
+
+.item {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    /* 80 */
+}
+
+.item {
+    color: #666;
+}
+
+.item__info,
+.item__img {
+    width: 50%;
+    float: left;
+}
+
+.item:nth-child(even) .item__info {
+    float: right;
+    padding-left: 1.25rem;
+    /* 20 */
+}
+
+.item:nth-child(even) .item__img {
+    padding-right: 1.25rem;
+    /* 20 */
+}
+
+.item:nth-child(odd) .item__info {
+    padding-right: 1.25rem;
+    /* 20 */
+}
+
+.item:nth-child(odd) .item__img {
+    padding-left: 1.25rem;
+    /* 20 */
+}
+
+.item h2 {
+    font-weight: 700;
+    font-size: 1.875rem;
+    /* 30 */
+    margin-bottom: 0.625rem;
+    /* 10 */
+}
+
+.item p {
+    line-height: 1.625rem;
+    /* 26 */
+}
+
+.item__img img {
+    width: 100%;
+    /*height: 38.750rem;*/
+    height: 100%;
+    /* 300 */
+}
+
+
+/*end*/
+
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+#content .col {
+    float: left;
+}
+
+#footer {
+    clear: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 
 .gunimage {
