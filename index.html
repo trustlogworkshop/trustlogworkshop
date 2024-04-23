@@ -37,6 +37,9 @@
                         <a class="nav-link js-scroll-trigger" href="#speakers">Keynotes</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#panel">Panel</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#people">Organization</a>
                     </li>
                     <li class="nav-item">
@@ -290,9 +293,16 @@
                     <article class="item">
                         <div class="item__info">
                             <h2><strong>Dr. Leman Akoglu</strong></h2>
-                            <p style="text-align: left;"><b>Dr. Leman Akoglu</b> is the Heinz College Dean's Associate Professor at Carnegie Mellon University's Heinz College of Information Systems and Public Policy. She also holds courtesy appointments at the Machine Learning Department 
+                            <!-- <p style="text-align: left;"><b>Dr. Leman Akoglu</b> is the Heinz College Dean's Associate Professor at Carnegie Mellon University's Heinz College of Information Systems and Public Policy. She also holds courtesy appointments at the Machine Learning Department 
                                 and the Computer Science Department of School of Computer Science. At Heinz, She directs the Data Analytics Techniques Algorithms Lab. Her research interests are broadly in data mining, graph mining, machine learning, and knowledge discovery, with specific 
-                                focus on anOmaLiEs---identifying and characterizing 'what stands out' in large-scale, time-varying, multi-modal data sources through scalable computational methods. </p>
+                                focus on anOmaLiEs---identifying and characterizing 'what stands out' in large-scale, time-varying, multi-modal data sources through scalable computational methods. </p> -->
+                            <h4>Title: Detecting Real-world Anomalies with Decorated Graphs</h4>
+                            <p style="text-align: left;"><b>Abstract</b>: Given a database of decorated graphs, with node- and edge-attributes, edge multiplicities and directions, and associated metadata for each graph, how can we spot the anomalous ones? Several real-world problems 
+                                can be cast as graph inference tasks where the topology captures complex relational phenomena (e.g., transactions between financial accounts in a journal entry), along with metadata reflecting tabular features (e.g. approver, effective date, etc.), 
+                                where the simultaneous handling of relational and tabular features poses a challenge.</p>
+                            <p style="text-align: left;"> In this talk I will present a novel graph neural network model that handles directed multigraphs, providing a unified end-to-end architecture that fuses metadata and graph-level representation learning through an unsupervised 
+                                anomaly detection objective. Experiments in two domains, based on general-ledger journal entries from different firms (accounting) and human GPS trajectories from thousands of individuals (urban mobility), validate the generality and detection 
+                                effectiveness on expert-guided ground-truth anomalies. We also find that a built-in synthesis of the two data modalities (graph and metadata) outperforms the baselines that handle these separately with post-hoc synthesis efforts.</p>
                         </div>
                         <div class="item__img">
                             <img src="images/LemanAkoglu.jpg" />
@@ -301,12 +311,15 @@
                     <article class="item">
                         <div class="item__info">
                             <h2><strong>Dr. Tina Eliassi-Rad</strong></h2>
-                            <p style="text-align: left;"><b>Dr. Tina Eliassi-Rad</b> is the inaugural President Joseph E. Aoun Professor at Northeastern University. She is also a core faculty member at Northeastern's Network Science Institute and the Institute for Experiential AI. In 
+                            <!-- <p style="text-align: left;"><b>Dr. Tina Eliassi-Rad</b> is the inaugural President Joseph E. Aoun Professor at Northeastern University. She is also a core faculty member at Northeastern's Network Science Institute and the Institute for Experiential AI. In 
                                 addition, she is an external faculty member at the Santa Fe Institute and the Vermont Complex Systems Center. Her research is at the intersection of data mining, machine learning, and network science. Tina's work has been applied to personalized search 
                                 on the World-Wide Web, statistical indices of large-scale scientific simulation data, fraud detection, mobile ad targeting, cyber situational awareness, drug discovery, democracy and online discourse, and ethics in machine learning. Her algorithms have 
                                 been incorporated into systems used by governments and industry (e.g., IBM System G Graph Analytics), as well as open-source software (e.g., Stanford Network Analysis Project). Tina served as the program co-chair for KDD 2017, NetSci 2017, and IC2S2 2020. 
                                 Tina received an Outstanding Mentor Award from the U.S. Department of Energy's Office of Science, was named one of the 100 Brilliant Women in AI Ethics, received Northeastern University's Excellence in Research and Creative Activity Award, and was awarded 
-                                the Lagrange Prize-CRT Foundation. Tina is a fellow of ISI Foundation and Network Science Society. </p>
+                                the Lagrange Prize-CRT Foundation. Tina is a fellow of ISI Foundation and Network Science Society. </p> -->
+                            <h4>Title: Trustworthy Network Science</h4>
+                            <p style="text-align: left;"><b>Abstract</b>: As the use of machine learning (ML) algorithms in network science increases, so do the problems related to explainability, transparency, fairness, privacy, and robustness, to name a few. In this talk, I will give 
+                                a brief overview of the field and present recent work from my lab on the (in)stability and explainability of node embeddings, attacks on ML algorithms for graphs, and equality in complex networks.</p>
                         </div>
                         <div class="item__img">
                             <img src="images/tina.jpg" />
@@ -315,7 +328,7 @@
                     <article class="item">
                         <div class="item__info">
                             <h2><strong>Dr. Vagelis Papalexakis</strong></h2>
-                            <p style="text-align: left;"><b>Dr. Vagelis Papalexakis</b>is an Associate Professor at the Computer Science and Engineering Department at the University of California Riverside. He has broad research interests in data mining, machine learning, and data science 
+                            <p style="text-align: left;"><b>Dr. Vagelis Papalexakis</b> is an Associate Professor at the Computer Science and Engineering Department at the University of California Riverside. He has broad research interests in data mining, machine learning, and data science 
                                 research. A major focus of his research is tensor decompositions for machine learning and data science. His work has attracted a number of distinctions, including the 2017 SIGKDD Dissertation Award (runner-up), the National Science Foundation CAREER award, 
                                 the 2021 IEEE DSAA Next Generation Data Scientist Award, and the ICDM 2022 Tao Li Award which awards excellence in early-career researchers. </p>
                         </div>
@@ -326,10 +339,15 @@
                     <article class="item">
                         <div class="item__info">
                             <h2><strong>Dr. Xiang Wang</strong></h2>
-                            <p style="text-align: left;"><b>Dr. Xiang Wang</b>is a Professor in University of Science and Technology of China. His research interests lie in developing trustworthy deep learning and artificial intelligence algorithms with better interpretability, 
+                            <!-- <p style="text-align: left;"><b>Dr. Xiang Wang</b> is a Professor in University of Science and Technology of China. His research interests lie in developing trustworthy deep learning and artificial intelligence algorithms with better interpretability, 
                                 generalization, and robustness. His research is motivated by, and contributes to, graph-structured applications in information retrieval (e.g., personalized recommendation), data mining (e.g., graph pre-training), security (e.g., fraud detection in 
                                 fintech, information security in system), and multimedia (e.g., video question answering). His work has over 50 publications in top-tier conferences and journals. Over 10 papers have been featured in the most cited and influential list (e.g., KDD 2019, 
-                                SIGIR 2019, SIGIR 2020, SIGIR 2021) and best paper finalist (e.g., WWW 2021, CVPR 2022). </p>
+                                SIGIR 2019, SIGIR 2020, SIGIR 2021) and best paper finalist (e.g., WWW 2021, CVPR 2022). </p> -->
+                            <h4>Title: Making Large Language Models Aligned with Graph</h4>
+                            <p style="text-align: left;"><b>Abstract</b>: The burgeoning field of AI has seen significant advancements in the capabilities of large language models (LLMs). However, applying LLMs to graph-centric domains requires novel approaches that bridge the language 
+                                space with complex, structured graph data. I will share our recent work in AI4Science, which focuses on integrating LLMs with graph-based data representations (e.g., 2D molecular graphs, 3D molecular point clouds, and graph-graph interactions). These works 
+                                collectively propel forward the frontier of LLM-driven graph understanding and generation, offering new tools for scientists to harness the power of AI in their research. This talk will detail the paradigm, challenges, and potential impacts of aligning LLMs 
+                                with scientific graphs, setting the stage for future innovations in AI-driven scientific exploration.</p>
                         </div>
                         <div class="item__img">
                             <img src="images/xiang.png" />
@@ -339,52 +357,87 @@
                 </div>
             </div>
         </section>
+        <section id="panel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <h2>Panel</h2>
+                        <h4>Topic: The Next Frontiers of Trustworthy Learning on Graphs</h4>
+                        <!-- <p class="lead"><b>Question List: to be announced.</b></p> -->
+                        <p class="lead"><b>Panelists</b></p>
+                        <div class="gallery">
+                            <div class="onethird">
+                                <img src="images/hh.png" alt="idk">
+                                <a href="http://tonghanghang.org/" target="_blank" style="text-decoration: none;">
+                                    <h4>Hanghang Tong</h4>
+                                </a>
+                                <b>Associate Professor</b>
+                                <p><b>University of Illinois at Urbana-Champaign</b></p>
+                            </div>
+                            <div class="onethird">
+                                <img src="images/hooi.jpg" alt="idk">
+                                <a href="https://bhooi.github.io/" target="_blank" style="text-decoration: none;">
+                                    <h4>Bryan Hooi</h4>
+                                </a>
+                                <b>Assistant Professor</b>
+                                <p><b>National University of Singapore</b></p>
+                            </div>
+                            <div class="onethird">
+                                <img src="images/xiang.png" alt="idk">
+                                <a href="https://xiangwang1223.github.io/" target="_blank" style="text-decoration: none;">
+                                    <h4>Xiang Wang</h4>
+                                </a>
+                                <b>Professor</b>
+                                <p><b>University of Science and Technology of China</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="people">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
                         <h2>Organization</h2>
                         <p class="lead"><b>Organzing Chairs</b></p>
-                        <div id="images">
-                            <div class="half">
-                                <img class="gunimage" border="0" alt="idk" src="images/hjr.png">
+                        <div class="gallery">
+                            <div class="onethird">
+                                <img src="images/hjr.png" alt="idk">
                                 <a href="https://www.hejingrui.org/" target="_blank" style="text-decoration: none;">
                                     <h4>Jingrui He</h4>
                                 </a>
                                 <b>Associate Professor</b>
                                 <p><b>University of Illinois at Urbana-Champaign</b></p>
                             </div>
-
-                            <div class="half">
-                                <img class="gunimage" border="0" alt="idk" src="images/kj.png">
+                            <div class="onethird">
+                                <img src="images/kj.png" alt="idk">
                                 <a href="https://jiank2.github.io/" target="_blank" style="text-decoration: none;">
                                     <h4>Jian Kang</h4>
                                 </a>
                                 <b>Assistant Professor</b>
                                 <p><b>University of Rochester</b></p>
                             </div>
-                        </div>
-                        <div id="images">
-                            <div class="half">
-                                <img class="gunimage" border="0" alt="idk" src="images/fn.jpg">
+                            <div class="onethird">
+                                <img src="images/fn.jpg" alt="idk">
                                 <a href="https://fnargesian.com/" target="_blank" style="text-decoration: none;">
                                     <h4>Fatemeh Nargesian</h4>
                                 </a>
                                 <b>Assistant Professor</b>
                                 <p><b>University of Rochester</b></p>
                             </div>
-                            <div class="half">
-                                <img class="gunimage" border="0" alt="idk" src="images/az.jpg">
+                        </div>
+                        <div class="gallery">
+                            <div class="onethird">
+                                <img src="images/az.jpg" alt="idk">
                                 <a href="https://anzhang.mystrikingly.com/" target="_blank" style="text-decoration: none;">
                                     <h4>An Zhang</h4>
                                 </a>
                                 <b>Research Fellow</b>
                                 <p><b>National University of Singapore</b></p>
                             </div>
-                        </div>
-                        <div id="images">
-                            <div class="half2">
-                                <img class="gunimage" border="0" alt="idk" src="images/dawei.png">
+                            <div class="onethird">
+                                <img src="images/dawei.png" alt="idk">
                                 <a href="https://sites.google.com/view/dawei-zhou/home" target="_blank" style="text-decoration: none;">
                                     <h4>Dawei Zhou</h4>
                                 </a>
@@ -393,9 +446,9 @@
                             </div>
                         </div>
                         <p class="lead"><b>Publicity Chair</b></p>
-                        <div id="images">
-                            <div class="half2">
-                                <img class="gunimage" border="0" alt="idk" src="images/haohui.jpg">
+                        <div class="gallery">
+                            <div class="onethird">
+                                <img src="images/haohui.jpg" alt="idk">
                                 <a href="https://sanghani.cs.vt.edu/person/haohui-wang/" target="_blank" style="text-decoration: none;">
                                     <h4>Haohui Wang</h4>
                                 </a>

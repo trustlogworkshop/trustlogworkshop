@@ -207,6 +207,25 @@ body {
     float: center;
 }
 
+.gallery {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the line */
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    width: 100%; /* Ensures the gallery takes full width of its parent */
+}
+
+.onethird {
+    width: 33%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.onethird img {
+    width: 100%;
+    height: auto;
+}
+
 #images {
     text-align: center;
     width: 100%;
